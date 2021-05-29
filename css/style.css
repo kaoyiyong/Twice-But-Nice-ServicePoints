@@ -1,0 +1,289 @@
+html{
+    width: 100%;
+    height: auto;
+}
+ 
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ 
+ 
+body{
+    margin: 0px;
+    font-family: 'Noto Serif TC', serif;
+}
+ 
+.header{
+
+  font-family:  'Abril Fatface', cursive;
+  text-align: center;
+  font-size: 20px;
+  color: #724e52;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+} 
+
+.background{
+   background-color: #F2EEEA;
+  width: 100px;
+  height: 100px;
+ 
+}
+
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+  font-family:  'Abril Fatface', cursive;
+  color: #F2EEEA;
+}
+
+
+.topnav {
+  background-color: #d4bfba;
+  overflow: hidden;
+  padding-left: 240px;
+}
+ 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #724e52;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 100px;
+  text-decoration: none;
+  font-size: 17px;
+}
+ 
+ 
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #d4bfba;
+  color: #724e52;
+}
+ 
+/*關於我們 李安琪*/
+.aboutus h2{
+  color: #724e52;
+  font-family: STHeiti;
+  text-align: center;
+  padding-top: 30px;
+}
+ 
+.aboutus p{
+  color: #AD7278;
+  font-family: STHeiti;
+  text-align: left;
+  padding-left: 400px;
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 25px;
+}
+ 
+.columnn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.roww::after {
+  align-content: center;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+
+.content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color:#d4bfba ;
+  background-color: #724e52;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+
+.steps{
+  font-family:  'Abril Fatface', cursive;
+  text-align: center;
+  font-size: 15px;
+  color: #724e52;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+
+
+
+
+.stepone{
+  font-size: 16px;
+
+}
+
+.steptwo{
+  font-size: 16px;
+
+}
+
+.stepthree{
+  font-size: 16px;
+
+}
+
+.shippingoptions
+{
+
+  font-family:  'Abril Fatface', cursive;
+  text-align: center;
+  font-size: 15px;
+  color: #724e52;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+  
+
+
+
+.servicepoints
+{
+
+  font-family:  'Abril Fatface', cursive;
+  text-align: center;
+  font-size: 15px;
+  color: #724e52;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+  
+
+
+.footer {
+    margin-top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #d4bfba;
+    text-align: center;
+    color: #724e52;
+    font-family: 'Abril Fatface', cursive;
+ 
+}
+
