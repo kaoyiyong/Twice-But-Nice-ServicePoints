@@ -11,7 +11,7 @@ html{
  
 body{
     margin: 0px;
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'Microsoft JhengHei';
 }
  
 .header{
@@ -34,19 +34,14 @@ body{
 
 
 
-
 .container {
   position: relative;
   text-align: center;
   color: white;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  
 }
 
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
 
 /* Bottom left text */
 .bottom-left {
@@ -83,7 +78,7 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 75px;
-  font-family:  'Abril Fatface', cursive;
+  font-family: 'Microsoft JhengHei';
   color: #F2EEEA;
 }
 
@@ -115,14 +110,14 @@ body{
 /*關於我們 李安琪*/
 .aboutus h2{
   color: #724e52;
-  font-family: STHeiti;
+  font-family: 'Microsoft JhengHei';
   text-align: center;
   padding-top: 30px;
 }
  
 .aboutus p{
   color: #AD7278;
-  font-family: STHeiti;
+  font-family: 'Microsoft JhengHei';
   text-align: left;
   padding-left: 400px;
   padding-top: 30px;
@@ -131,17 +126,20 @@ body{
 }
  
 .columnn {
+
   float: left;
   width: 33.33%;
-  padding: 10px;
+  padding: 20px;
 }
 
 /* Clear floats after image containers */
 .roww::after {
+
   align-content: center;
   content: "";
   clear: both;
   display: table;
+  margin-top: 100px;
 }
 
 
@@ -150,9 +148,20 @@ body{
   float: left;
   width: 33.33%;
   padding: 5px;
+  align-content: center;
+  text-align: center;
+
 }
 
+.map {
 
+  display: relative;
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+
+}
 
 .content {
   position: absolute; /* Position the background text */
@@ -177,6 +186,10 @@ body{
   align-content: center;
   border-radius: 20px;
   font-size: 14px;
+  margin-top: 30px;
+  margin-right: 200px;
+  font-family: 'Microsoft JhengHei';
+  font-size: 20px;
 }
 
 
@@ -186,44 +199,51 @@ body{
 }
 
 #myInput {
+  font-family: 'Microsoft JhengHei';
   background-image: url('/css/searchicon.png'); /* Add a search icon to input */
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 100%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
+  font-size: 20px; /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
+  margin-bottom: 20px; /* Add some space below the input */
 }
 
 #myTable {
+  font-family: 'Microsoft JhengHei';
+  margin-top: 100px;
   border-collapse: collapse; /* Collapse borders */
   width: 100%; /* Full-width */
   border: 1px solid #ddd; /* Add a grey border */
-  font-size: 18px; /* Increase font-size */
+  font-size: 16px; /* Increase font-size */
 }
 
 #myTable th, #myTable td {
+  font-family: 'Microsoft JhengHei';
   text-align: left; /* Left-align text */
-  padding: 12px; /* Add padding */
+  padding: 20px; /* Add padding */
 }
 
 #myTable tr {
+  font-family: 'Microsoft JhengHei';
   /* Add a bottom border to all table rows */
   border-bottom: 1px solid #ddd; 
 }
 
 #myTable tr.header, #myTable tr:hover {
+  font-family: 'Microsoft JhengHei';
   /* Add a grey background color to the table header and on hover */
   background-color: #f1f1f1;
 }
 
 .steps{
-  font-family:  'Abril Fatface', cursive;
+  font-family: 'Microsoft JhengHei';
   text-align: center;
-  font-size: 15px;
+  font-size: 30px;
+  letter-spacing: 2px;
   color: #724e52;
-  margin-top: 0px;
+  margin-top: 100px;
   margin-bottom: 0px;
 
 }
@@ -233,28 +253,38 @@ body{
 
 
 .stepone{
-  font-size: 16px;
+  font-family: 'Microsoft JhengHei';
+  font-size: 21px;
+  letter-spacing: 2px;
+  margin-top: 50px;
 
 }
 
 .steptwo{
-  font-size: 16px;
+  font-family: 'Microsoft JhengHei';
+  font-size: 21px;
+  letter-spacing: 2px;
+  margin-top: 50px;
 
 }
 
 .stepthree{
-  font-size: 16px;
+  font-family: 'Microsoft JhengHei';
+  font-size: 21px;
+  letter-spacing: 2px;
+  margin-top: 50px;
 
 }
 
 .shippingoptions
 {
 
-  font-family:  'Abril Fatface', cursive;
+  font-family: 'Microsoft JhengHei';
   text-align: center;
-  font-size: 15px;
+  font-size: 30px;
+  letter-spacing: 2px;
   color: #724e52;
-  margin-top: 0px;
+  margin-top: 100px;
   margin-bottom: 0px;
 }
   
@@ -264,7 +294,7 @@ body{
 .servicepoints
 {
 
-  font-family:  'Abril Fatface', cursive;
+  font-family: 'Microsoft JhengHei';
   text-align: center;
   font-size: 15px;
   color: #724e52;
@@ -275,7 +305,7 @@ body{
 
 
 .footer {
-    margin-top: 50px;
+   top: 10px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -286,4 +316,5 @@ body{
     font-family: 'Abril Fatface', cursive;
  
 }
+
 
